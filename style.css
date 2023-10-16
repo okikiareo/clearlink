@@ -129,7 +129,8 @@ padding-top: 4rem;
     width: 13rem;
 }
 .choose{
-margin: 0 2rem;
+margin: 0 3rem;
+margin-bottom: 2rem;
 }
 .choose_intro{
    width: 80%;
@@ -164,11 +165,47 @@ margin: 0 2rem;
 .container{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-gap: 1.5rem
+gap: 1.7rem
 }
 .box{
-
+margin-right: 4.5rem;
+}
+.box img{
+    padding: .7rem;
+    width: 2.6rem;
+    background: #EAECF0;
+    border-radius: 2rem;
+    margin-bottom: .8rem;
+}
+.box h4{
+    margin-bottom: .8rem;
+}
+.box p{
+    font-size: .9rem;
+    color: #475467;
 }
 .container_img img{
 width: 25rem;
+}
+.remote_sect{
+    margin:0 3rem ;
+
+}
+.remote{
+    margin-top: 8rem;
+}
+.remote_info{
+    margin-right: 8rem;
+}
+.remote_info .size img{
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+.remote_info h2{
+font-size: 2rem;
+line-height: 2.5rem;
+}
+
+.remote_img img{
+    width: 32rem;
 }
