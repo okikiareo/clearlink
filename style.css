@@ -188,8 +188,8 @@ margin-right: 4.5rem;
 width: 25rem;
 }
 .remote_sect{
-    margin:0 3rem ;
-
+    padding:0 3rem ;
+/* background: #F9FAFB; */
 }
 .remote{
     margin-top: 8rem;
@@ -204,8 +204,34 @@ width: 25rem;
 .remote_info h2{
 font-size: 2rem;
 line-height: 2.5rem;
+color: #101828;
 }
 
 .remote_img img{
     width: 32rem;
 }
+.shopify_review{
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+.shop-profile .avatar{
+    margin-right: 1rem;
+    width: 2.5rem;
+}
+.shopify_review h5{
+font-weight: 600;
+}
+.shopify_review p{
+    font-size: .8rem;
+    margin-top: .5rem;
+    }
+    .arrow img{
+        margin-right: 4rem;
+        background: #fff;
+        padding: .7rem;
+        border-radius: 50%;
+        border: 1px solid #D1E9FF;
+    }
+    .remote_flex{
+        padding-bottom: 23em;
+    }
