@@ -23,7 +23,8 @@ a{
     display: flex;
     align-items: center;
 }
-.home, .company, .choose, .remote_sect, .support{
+.home, .company, .choose, 
+.remote_sect, .support{
     padding: 0 5rem;
 }
 .head{
@@ -242,7 +243,8 @@ font-weight: 600;
         padding-bottom: 23em;
     }
     .support{
-        margin-top: 4rem;
+        margin: 4rem 0 4rem 0;
+        
     }
     .supp_container .supp_info{
         width: 40%;
@@ -288,7 +290,7 @@ margin-bottom: 1rem;
     }
     .toggle  img{
         width: 1.3rem;
-        float: initial;
+        /* float: initial; */
     }
     .toggle p{
         font-size: .9rem;
@@ -300,4 +302,42 @@ margin-bottom: 1rem;
         background-color: #EAECF0;
         border: none;   
        
+}
+.ready{
+    margin-top: 4rem;
+
+}
+.ready_inner {
+    align-items: flex-start;
+    margin-left: 6rem;
+    justify-content: space-between;
+    /* width:95% */
+}
+.ready_info{
+    padding-right: 14rem;
+}
+.ready_info h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.ready_img img{
+/* width: 30rem; */
+
+width: 38rem;
+}
+.check{
+    margin-bottom: .6rem;
+}
+.check img{
+    width: 1.3rem;
+
+}
+.check p{
+    margin-left: .6rem;
+}
+.border{
+    margin-top: 1.5rem;
+}
+.border .white{
+    border:1px solid #3d3d3f !important;
 }

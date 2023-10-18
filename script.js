@@ -5,12 +5,13 @@ var p = document.querySelector(".p")
 btn.addEventListener("click", function(){
     if(btn.src = "img/plus-circle.svg"){
         btn.src = "img/minus-circle.svg";
-        toggle.style.background = "none"
+        toggle.style.background = "none";
         p.style.display = "none";
     }
     else{
-        btn.src = "img/plus-circle.svg"
-        toggle.style.background = "#EAECF0"
+        btn.src = "img/plus-circle.svg";
+        toggle.style.background = "#EAECF0";
+        p.style.display = "inline";
     }
 })
 
