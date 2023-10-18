@@ -1,19 +1,29 @@
-var btn = document.querySelector('.btn')
-var toggle = document.querySelector(".toggle")
-var p = document.querySelector(".p")
+var btns = document.querySelectorAll('.btn')
+var toggle = document.querySelectorAll(".toggle")
+var p = document.querySelectorAll(".p")
 
-btn.addEventListener("click", function(){
-    if(btn.src = "img/plus-circle.svg"){
-        btn.src = "img/minus-circle.svg";
-        toggle.style.background = "none";
-        p.style.display = "none";
-    }
-    else{
-        btn.src = "img/plus-circle.svg";
-        toggle.style.background = "#EAECF0";
-        p.style.display = "inline";
-    }
+btns.forEach((btn, i) =>{
+  var changeicons = true;
+    btn.addEventListener("click", function(){
+        console.log(btn.src)
+        if(changeicons === true){
+            changeicons = false
+            btn.src = "img/minus-circle.svg";
+            toggle[i].style.background = "#EAECF0";
+            p[i].style.display = "inline";
+        }
+        else{
+            changeicons = true;
+            btn.src = "img/plus-circle.svg";
+            toggle[i].style.background = "none";
+            p[i].style.display = "none";
+        }
+    })
 })
+
+  
+
+
 
 
 
@@ -23,15 +33,3 @@ now = new Date();
 year = now.getFullYear();
 
 document.querySelector(".year").textContent = `${year}`;
-
-
-// var btn = document.querySelector('.btn');
-// var img = btn.previousElementSibling;
-
-// btn.addEventListener("click", function () {
-//     if (img.src.endsWith("plus-circle.svg")) {
-//         img.src = "img/minus-circle.svg";
-//     } else {
-//         img.src = "img/plus-circle.svg";
-//     }
-// });
