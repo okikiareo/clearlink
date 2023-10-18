@@ -15,6 +15,16 @@ btn.addEventListener("click", function(){
     }
 })
 
+
+
+
+    var now, year;
+now = new Date();
+year = now.getFullYear();
+
+document.querySelector(".year").textContent = `${year}`;
+
+
 // var btn = document.querySelector('.btn');
 // var img = btn.previousElementSibling;
 
