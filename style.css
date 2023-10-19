@@ -365,7 +365,7 @@ list-style: none;
     font-weight: 600;
     margin-bottom: 1rem;
 }
-.footer_logop {
+.footer_logo p {
    color:#475467;
 }
 .footer_links{
@@ -933,20 +933,25 @@ line-height: 2rem;
         flex-direction: column;
         
     }
-/* .ready_info{
-    padding-right: 4rem;
-}
-.ready_info{
-    padding-right: 2rem;
-}
-.ready_info h2{
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem; 
-}*/
 .ready_img{
 margin-top: 2rem;
 }
 .ready_img img{
 width: 30rem;
 }
+.footer_inner{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .footer_inner .foott{
+    margin:2rem;
+    flex: 1 1 25rem;
+  }
+  .foot{
+      flex-direction: column-reverse;
+  }
+  .socials{
+      margin-bottom: 3rem;
+  }
 }
