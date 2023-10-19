@@ -955,3 +955,21 @@ width: 30rem;
       margin-bottom: 3rem;
   }
 }
+/* Mobile */
+@media(min-width: 701px){
+    .mobile{
+display: none;
+    }
+}
+@media(max-width:700px){
+    .nav{
+        display: none;
+    }
+    .logo img{
+        width: 17px;
+    }
+    .logo{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
