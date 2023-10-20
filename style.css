@@ -965,11 +965,80 @@ display: none;
     .nav{
         display: none;
     }
+    .home{
+            padding: 0 0rem;
+
+    }
+   .mobile{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .logo{
+        margin:2rem;
+    }
     .logo img{
         width: 17px;
     }
     .logo{
         font-weight: 600;
         font-size: 1rem;
+    }
+    .mob_pg_nav {
+        background: #F9FAFB;
+        flex-direction: column;
+        gap:2rem;
+        padding:4rem;
+    }
+    .main{
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+    .home_img img{
+        width: 25rem;
+    }
+    
+    .company_inner img{
+        padding-right: 1rem;
+    }
+    
+    .choose_info{
+        margin-right: 4rem;
+    }
+  
+    .choose_intro h2{
+   
+        font-size: 1rem;
+    }
+   
+
+    .choose_intro{
+       width: 100%;
+    }
+    .choose_info{
+        margin-right: 5rem;
+    }
+    .choose_intro h4{
+        color: #175CD3;
+        margin-bottom: 1rem;
+    }
+    .choose_intro h2{
+        color: #1D2939;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .choose_intro p{
+        color: #667085;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+    .hand_arrow img{
+    width: 12rem;
+    padding-top: 4rem;
+    }
+    .reasons{
+    margin: 0 2rem;
+    /* margin-top: -3rem; */
     }
 }
