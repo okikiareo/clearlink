@@ -22,14 +22,19 @@ btns.forEach((btn, i) =>{
 })
 
   
-
-
-
-
-
-
     var now, year;
 now = new Date();
 year = now.getFullYear();
 
 document.querySelector(".year").textContent = `${year}`;
+
+
+
+
+// var Mobile = document.getElementById = ("Mobile")
+// function showMenu() {
+//     Mobile.style.right = "0";
+// }
+// function hideMenu() {
+//     Mobile.style.right = "-200px";
+// }

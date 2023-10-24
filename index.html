@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <section class="home">
-            <div class="mobile flex">
+            <div class="mobile flex" id="Mobile">
+                <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
                 <div class="logo">
                     <img src="img/logo.png" alt="clearlink">
                       ClearLink.
@@ -21,9 +23,11 @@
                         <a href="">Resources</a>
                         <a href="">Pricing </a>
                       </div>
+                <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
             </div>
             <header class="head">
                 <div class="nav flex">
+                    <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
                     <div class="logo">
                  <img src="img/logo.png" alt="clearlink">
                    ClearLink.
@@ -38,6 +42,7 @@
                         <a href="" class="white">Talk to sales</a>
                         <a href="">Sign up for free</a>
                     </div>
+                    <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
                 </div>
             </header>
             <main class="main flex">
@@ -73,7 +78,7 @@
                 <p>
                 Join 1,500+ companies already video conferencing the ClearLink way
             </p>
-            <div class="flex">
+            <div class="flex comp_img">
 <img src="img/Shopify.png" class="shop" alt="">
 <img src="img/coinbase.png"class="same" alt="">
 <img src="img/Dropbox.png" class="same" alt="">
@@ -322,5 +327,6 @@
          </section>
     </main>
     <script src="script.js"></script>
+    
 </body>
 </html>
