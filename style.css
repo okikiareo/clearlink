@@ -1046,7 +1046,11 @@ display: none;
         padding-right: 1rem;
     }
     .comp_img{
-        padding: 2rem;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+    .comp_img img{
+        padding: .4rem;
     }
     .company_inner .same{
         width: 6rem;
@@ -1060,6 +1064,13 @@ display: none;
     .company_inner .auto{
         width: 8rem;
     }
+    .choose_info {
+        margin-right: 1rem;
+    }
+    .hand_arrow img {
+        width: 10rem;
+        padding-top: 3rem;
+    }
     .choose_intro h2{
         
         font-size: 1.5rem;
@@ -1068,6 +1079,12 @@ display: none;
     }
     .choose_intro p{
         font-size: 1rem;
+    }
+    .choose {
+        padding: 0 1rem;
+    }
+    .support {
+        padding: 0 0rem;
     }
     .container{
         gap: .5rem
@@ -1089,9 +1106,13 @@ display: none;
         .container_img img{
         width: 18rem;
         }
-     
+        .ready_img img {
+            width: 22rem;
+        }
     }
-
+@media(max-width: 420px){
+    
+}
 
 
 
