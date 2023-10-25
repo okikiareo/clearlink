@@ -398,6 +398,7 @@ list-style: none;
    background:#F9FAFB;
    justify-content: space-between;
    padding: 3rem 4rem;
+   margin-bottom: 0rem;
 }
 .socials i{
     margin-right: 2rem;
@@ -988,7 +989,7 @@ display: none;
         background: #F9FAFB;
         flex-direction: column;
         gap:2rem;
-        padding:4rem;
+        /* padding:4rem; */
     }
     .main{
         /* flex-direction: column; */
@@ -1193,12 +1194,132 @@ font-size: .9rem;
     margin-left: 2rem;
 }
 .ready_img img {
-    width: 20rem;
+    width: 18rem;
 }
 .footer_inner .foott {
      margin: 1rem 0;
 }
+.footer_links {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr ;
 }
+.footer_inner .foott {
+    font-size: .9rem;
+}
+.getapp img {
+    width: 6rem;
+}
+.rights {
+    font-size: .9rem;
+    text-align: center;
+}
+}
+
+
+
+@media(max-width: 320px){
+    /* .home_info h1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .home_info p {
+        font-size: .9rem;
+    }
+    .review{
+    font-size: .7rem;    
+    }
+    .review img {
+        width: 6rem;
+    }
+    .review .stars {
+        width: 4.5rem;
+    }
+    .home_img img {
+        width: 20rem;
+    }
+    .choose_info {
+        margin-right: .2rem;
+    }    
+    .choose_intro h2 {
+        font-size: 1.2rem;
+    }
+    .hand_arrow img {
+        width: 7rem;
+}
+.container {
+    grid-template-columns: repeat(1, 1fr);
+}
+.box {
+    margin-right: 1rem;
+}
+.box h4 {
+    font-size: .9rem;
+}
+.remote_info h2 {
+    font-size: 1rem;
+    line-height: 1.4rem;
+} 
+.shopify_review{
+    flex-wrap: wrap;
+}
+.arrow{
+    margin-top: 1.5rem;
+}
+.remote_img img {
+    width: 20rem;
+}
+.supp_container h3 {
+    font-size: 1.3rem;
+}
+.supp_container p {
+font-size: .9rem;
+}
+.toggle {
+    padding: 0.5rem
+}
+.toggles {
+    margin: 0 2rem;
+}
+.toggle summary h4 {
+    font-size: .9rem;
+    font-weight: 500;
+}
+.ready_info h2 {
+    font-size: 1.2rem;
+}
+.check p {
+    font-size: .9rem;
+}
+.check img {
+    width: 1.2rem;
+} */
+.ready_inner {
+    margin-left: 2rem;
+}
+.ready_img img {
+    width: 14rem;
+/* }
+.footer_inner .foott {
+     margin: 1rem 0;
+}
+.footer_links {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr ;
+}
+.footer_inner .foott {
+    font-size: .9rem;
+}
+.getapp img {
+    width: 6rem;
+}
+.rights {
+    font-size: .9rem;
+    text-align: center;
+} */
+}
+
     /* .nav .fa {
         display: none;
     }
