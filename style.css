@@ -1219,6 +1219,37 @@ font-size: .9rem;
 
 
 @media(max-width: 320px){
+    .review {
+        gap: 1rem;
+         margin-bottom: .2rem;
+    }
+    .trial {
+        flex-wrap: wrap;
+    }
+    .choose_intro h4 {
+        font-size: .9rem;
+    }
+    .ready_inner {
+        margin-left: 2rem;
+    }
+    .ready_img img {
+        width: 14rem;
+    }
+    .choose_intro p {
+        font-size: .9rem;
+    }
+    .hand_arrow img {
+        width: 5rem;
+    }
+    .hand_arrow img {
+        padding-top: 0rem;
+}
+.choose_intro {
+    margin-bottom: 1rem;
+}
+.container_img img {
+    width: 14rem;
+}
     /* .home_info h1 {
         font-size: 1.2rem;
         text-align: center;
@@ -1294,12 +1325,7 @@ font-size: .9rem;
 .check img {
     width: 1.2rem;
 } */
-.ready_inner {
-    margin-left: 2rem;
-}
-.ready_img img {
-    width: 14rem;
-/* }
+/* 
 .footer_inner .foott {
      margin: 1rem 0;
 }
@@ -1318,7 +1344,7 @@ font-size: .9rem;
     font-size: .9rem;
     text-align: center;
 } */
-}
+
 
     /* .nav .fa {
         display: none;
