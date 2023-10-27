@@ -25,7 +25,7 @@ btns.forEach((btn, i) =>{
 var bar = document.getElementById("bar");
 var navbar = document.querySelector(".navbar");
 var header = document.querySelector(".header-2");
-
+var head = document.querySelector(".mobile");
 
 bar.onclick = () => {
     
@@ -51,7 +51,18 @@ window.addEventListener("scroll",  () => {
             navbar.style.display == "initial";
         }
     }) 
-      
+    window.onscroll = () =>{
+        if(window.scrollY > 150){
+        header.className = "nav flex header-2 active";
+        head.className = "mobile flex active";
+    }
+    else{
+        header.className = "nav header-2 flex";
+        head.className = "mobile flex";
+    }
+    }    
+    
+    
     var now, year;
 now = new Date();
 year = now.getFullYear();
