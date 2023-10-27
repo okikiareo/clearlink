@@ -1241,14 +1241,40 @@ font-size: .9rem;
     .hand_arrow img {
         width: 5rem;
     }
-    .hand_arrow img {
-        padding-top: 0rem;
-}
+
 .choose_intro {
     margin-bottom: 1rem;
 }
 .container_img img {
     width: 14rem;
+}
+.reasons {
+    margin-top: 2rem;
+    flex-direction: column-reverse;
+    gap: 2rem;
+}
+.reasons {
+     margin: 0 .5rem;
+}
+.remote_img img {
+    width: 17rem;
+}
+.toggles {
+    margin: 0 1rem;
+}
+.ready_info h2 {
+    font-size: 1.1rem;
+}
+.btn_nav {
+    flex-wrap: wrap;
+}
+.footer_inner .foott {
+    font-size: 0.8rem;
+}
+.socials i {
+    
+    font-size: 1rem;
+}
 }
     /* .home_info h1 {
         font-size: 1.2rem;
