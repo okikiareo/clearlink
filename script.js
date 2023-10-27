@@ -22,6 +22,36 @@ btns.forEach((btn, i) =>{
 })
 
   
+var bar = document.getElementById("bar");
+var navbar = document.querySelector(".navbar");
+var header = document.querySelector(".header-2");
+
+
+bar.onclick = () => {
+    
+    if(bar.className == "fa fa-bars" &&
+      navbar.style.display == "none"){
+          bar.className = "fa fa-times";
+          navbar.style.display = "initial";
+      }
+      else{
+        bar.className = "fa fa-bars";
+        navbar.style.display = "none";
+      }
+
+}
+
+window.addEventListener("scroll",  () => {
+    if(bar.className == "fa fa-times" &&
+       navbar.style.display == "initial"){
+        bar.className = "fa fa-bars";
+        navbar.style.display = "none";}
+        else{
+            bar.className == "fa fa-times";
+            navbar.style.display == "initial";
+        }
+    }) 
+      
     var now, year;
 now = new Date();
 year = now.getFullYear();
